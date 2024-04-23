@@ -80,7 +80,12 @@
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Somma di 77 e 55: " + CalcoliHelper.SommaInteri(77, 55));
+            Console.WriteLine("Differenza tra 26,42 e 4,88: " + CalcoliHelper.SottrDouble(26.42, 4.88));
+            Console.WriteLine("Moltiplicazione di 84 e 3: " + CalcoliHelper.MoltInteri(84, 3));
+            Console.WriteLine("Valore assoluto di -10,66: " + CalcoliHelper.ValAssolutoDouble(-10.66));
+            Console.WriteLine("Minimo tra 43 e 56: " + CalcoliHelper.MinInteri(43, 56));
+            Console.WriteLine("Massimo tra 77,76 e 45,98: " + CalcoliHelper.MaxDouble(77.76, 45.98));
         }
     }
 }
