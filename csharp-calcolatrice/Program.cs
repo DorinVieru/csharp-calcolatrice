@@ -16,27 +16,39 @@
         }
 
         // Differenza tra due numeri interi
-        public static int DifferenzaInteri(int numOne, int numTwo)
+        public static int SottrInteri(int numOne, int numTwo)
         {
             return numOne - numTwo;
         }
 
         // Differenza tra due numeri double
-        public static double DifferenzaDouble(double numOne, double numTwo)
+        public static double SottrDouble(double numOne, double numTwo)
         {
             return numOne - numTwo;
         }
 
         // Moltiplicazione di due numeri interi
-        public static int MoltiplicazioneInteri(int numOne, int numTwo)
+        public static int MoltInteri(int numOne, int numTwo)
         {
             return numOne * numTwo;
         }
 
         // Moltiplicazione di due numeri double
-        public static double MoltiplicazioneDouble(double numOne, double numTwo)
+        public static double MoltDouble(double numOne, double numTwo)
         {
             return numOne * numTwo;
+        }
+
+        // Valore assoluto di un numero intero
+        public static int ValAssolutoIntero(int numAbs)
+        {
+            return numAbs < 0 ? -numAbs : numAbs;
+        }
+
+        // Valore assoluto di un numero double
+        public static double ValAssolutoDouble(double numAbs)
+        {
+            return numAbs < 0 ? -numAbs : numAbs;
         }
     }
 
