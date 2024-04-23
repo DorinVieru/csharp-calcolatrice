@@ -50,6 +50,30 @@
         {
             return numAbs < 0 ? -numAbs : numAbs;
         }
+
+        // Minimo tra due numeri interi
+        public static int MinInteri(int numOne, int numTwo)
+        {
+            return numOne < numTwo ? numOne : numTwo;
+        }
+
+        // Minimo tra due numeri double
+        public static double MinDouble(double numOne, double numTwo)
+        {
+            return numOne < numTwo ? numOne : numTwo;
+        }
+
+        // Massimo tra due numeri interi
+        public static int MaxInteri(int numOne, int numTwo)
+        {
+            return numOne > numTwo ? numOne : numTwo;
+        }
+
+        // Massimo tra due numeri double
+        public static double MaxDouble(double numOne, double numTwo)
+        {
+            return numOne > numTwo ? numOne : numTwo;
+        }
     }
 
     internal class Program
