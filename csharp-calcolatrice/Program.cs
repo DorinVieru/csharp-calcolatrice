@@ -26,6 +26,18 @@
         {
             return numOne - numTwo;
         }
+
+        // Moltiplicazione di due numeri interi
+        public static int MoltiplicazioneInteri(int numOne, int numTwo)
+        {
+            return numOne * numTwo;
+        }
+
+        // Moltiplicazione di due numeri double
+        public static double MoltiplicazioneDouble(double numOne, double numTwo)
+        {
+            return numOne * numTwo;
+        }
     }
 
     internal class Program
